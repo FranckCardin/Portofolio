@@ -22,6 +22,9 @@ function Projects(){
                         </div>
                         <div className="projects__card_body">
                             <p className="projects__card_body_description">{project.description}</p>
+                            {project.task.map((paragraph, index) => (
+                                    <p key={index} className="projects__card_body_task">{paragraph}</p>
+                                ))}
                         </div>
                         <div className="projects__card_footer">
                             <div className="projects__card_footer_langage">
@@ -31,8 +34,10 @@ function Projects(){
                             </div>
                         </div>
                         <div className="projects__card_link">
-                            <a href={project.gitHubPageLink} aria-label="GitHub Pages"
-                    target="_blank"><i className="projects__card_link_site fa-solid fa-link"></i></a>
+                            {project.gitHubPageLink ? ( 
+                                <a href={project.gitHubPageLink} aria-label="GitHub Pages"
+                                target="_blank"><i className="projects__card_link_site fa-solid fa-link"></i></a>
+                            ) : ('')}
                             <a href={project.gitHubRepoLink} aria-label="GitHub Repositories"
                     target="_blank"><i className="projects__card_link_github fa-brands fa-github"></i></a>
                         </div>
