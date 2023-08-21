@@ -3,7 +3,7 @@ export const projectData = [
     id: 1,
     title: 'Booki',
     work: 'Formation chez Open Class Rooms',
-    description: 'Création d\'une page d\'accueil d\'une agence de voyage',
+    description: 'Création d\'une page d\'accueil d\'une agence de voyage.',
     langage:[
       'HTML',
       'CSS',
@@ -30,7 +30,7 @@ export const projectData = [
     id: 2,
     title: 'Sophie Bluel',
     work: 'Formation chez Open Class Rooms',
-    description:'Création d\'une page dynamique',
+    description:'Création d\'une page dynamique.',
     langage:[
       'Javascript',
       'HTML',
@@ -57,7 +57,7 @@ export const projectData = [
     id: 3,
     title: 'Nina Carducci',
     work: 'Formation chez Open Class Rooms',
-    description:'Débuggez et optimisez un site de photographe',
+    description:'Débugger et optimiser un site de photographe.',
     langage:[
       'JavaScript',
       'HTML',
@@ -72,8 +72,8 @@ export const projectData = [
     ],
     task:[
       'Utilisation de LightHouse et GTmetrix pour faire un audit du site',
-      'Utilisation de Chome DevTools et les points d\'arrêt pour débuggez le site',
-      'Modification du code pour corrigez toutes les erreurs',
+      'Utilisation de Chome DevTools et les points d\'arrêt pour débugger le site',
+      'Modification du code pour corriger toutes les erreurs',
       'Minification des fichiers JavaScript et CSS',
       'Ajout d\'un référencement local et réseaux sociaux avec Schema.org',
       'Utilisation de Wave Evaluation Tools pour vérifier l\'accessibilité du site',
@@ -154,6 +154,11 @@ export const projectData = [
       'GitHub',
     ],
     task:[
+      'Initialisation du projet avec Vite JS',
+      'Création d\'une page pour l\'affichage des données du fichier JSON',
+      'Implémentation et utilisation de composants',
+      'Mise en place du responsive',
+      'Utilisation de FlexBox et Grid CSS',
     ],
     img: 'assets/img/projects/projet8cover.png',
     gitHubRepoLink: 'https://github.com/FranckCardin/Portofolio',
