@@ -27,7 +27,7 @@ function About() {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="#"
+                        href="https://www.linkedin.com/in/franck-cardin-a30b95a4"
                         aria-label="LinkedIn"
                         target="_blank"
                         className="about__profile_socialIcons_link"
